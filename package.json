@@ -11,10 +11,10 @@
         "createdb:dev": "npx sequelize-cli db:create",
         "cleandb:dev": "npm run destroy:dev && npm run createdb:dev && npm run migrate:dev",
         "test": "NODE_ENV=test jest --runInBand",
-        "migrate": "NODE_ENV=development npx sequelize-cli db:migrate:undo:all && NODE_ENV=development npx sequelize-cli db:migrate",
-        "destroy": "NODE_ENV=development npx sequelize-cli db:drop",
-        "createdb": "NODE_ENV=development npx sequelize-cli db:create",
-        "cleandb": "npm run destroy && npm run createdb && npm run migrate"
+        "migrate": "NODE_ENV=production npx sequelize-cli db:migrate:undo:all && NODE_ENV=production npx sequelize-cli db:migrate",
+        "destroy": "NODE_ENV=production npx sequelize-cli db:drop",
+        "createdb": "NODE_ENV=production npx sequelize-cli db:create",
+        "cleandb": "NODE_ENV=production npm run destroy && NODE_ENV=production npm run createdb && NODE_ENV=production npm run migrate"
     },
     "dependencies": {
         "bcrypt": "^5.1.1",
