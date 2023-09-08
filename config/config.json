@@ -14,7 +14,7 @@
         "dialect": "postgres"
     },
     "production": {
-        "username": "farees",
+        "username": "postgres",
         "password": "123456789",
         "database": "notes_taking_db_development",
         "host": "localhost",
