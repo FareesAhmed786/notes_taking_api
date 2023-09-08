@@ -1,0 +1,23 @@
+{
+    "development": {
+        "username": "postgres",
+        "password": "123456789",
+        "database": "notes_taking_db_development",
+        "host": "localhost",
+        "dialect": "postgres"
+    },
+    "test": {
+        "username": "postgres",
+        "password": "123456789",
+        "database": "notes_taking_db_development",
+        "host": "localhost",
+        "dialect": "postgres"
+    },
+    "production": {
+        "username": "farees",
+        "password": "123456789",
+        "database": "notes_taking_db_development",
+        "host": "localhost",
+        "dialect": "postgres"
+    }
+}
