@@ -9,14 +9,14 @@
     "test": {
         "username": "postgres",
         "password": "123456789",
-        "database": "notes_taking_db_development",
+        "database": "notes_taking_db_test",
         "host": "localhost",
         "dialect": "postgres"
     },
     "production": {
         "username": "postgres",
         "password": "123456789",
-        "database": "notes_taking_db_development",
+        "database": "notes_taking_db_production",
         "host": "localhost",
         "dialect": "postgres"
     }
